@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.conteudo{
+	background-color: #fafafa;
+	text-align: center;
+	padding: 15px;
+	margin: 5px;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+.conteudo:hover{
+	background-color: #fdfdfd;
+}
+
+table{
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+}
+
+td{
+	width: 200px;
+	border-bottom: 1px solid #ccc;
+}
+
+th{
+	width: 200px;
+	border-bottom: 1px solid #777;
+}
+
+tr{
+	transition: 0.5s;
+}
+
+tr:hover{
+	background-color: #eee;
+}
+
+
+.botao{
+	background-color: rgb(0, 210, 210);
+	border: none;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 10px;
+	margin: 3px;
+	transition: 0.5s;
+}
+
+.botao:hover{
+	background-color: rgb(0, 240, 240);
+}
+
+.fechar{
+	background-color: rgba(250, 0, 0, 0.5);
+	border: none;
+	padding: 7px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 3px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	transition: 0.5s;
+}
+
+.fechar:hover {
+	background-color: rgba(250, 0, 0, 1);
+}
+
+.addNovo{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
